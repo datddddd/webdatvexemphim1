@@ -1,0 +1,994 @@
+D:\baitap\c#\ck\bin\Debug\net8.0\appsettings.Development.json
+D:\baitap\c#\ck\bin\Debug\net8.0\appsettings.json
+D:\baitap\c#\ck\bin\Debug\net8.0\ck.staticwebassets.runtime.json
+D:\baitap\c#\ck\bin\Debug\net8.0\ck.staticwebassets.endpoints.json
+D:\baitap\c#\ck\bin\Debug\net8.0\ck.exe
+D:\baitap\c#\ck\bin\Debug\net8.0\ck.deps.json
+D:\baitap\c#\ck\bin\Debug\net8.0\ck.runtimeconfig.json
+D:\baitap\c#\ck\bin\Debug\net8.0\ck.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ck.pdb
+D:\baitap\c#\ck\bin\Debug\net8.0\Humanizer.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Build.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Npgsql.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\NuGet.Common.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.CodeDom.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.csproj.AssemblyReference.cache
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.GeneratedMSBuildEditorConfig.editorconfig
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.AssemblyInfoInputs.cache
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.AssemblyInfo.cs
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.csproj.CoreCompileInputs.cache
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.MvcApplicationPartsAssemblyInfo.cache
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.RazorAssemblyInfo.cache
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.RazorAssemblyInfo.cs
+D:\baitap\c#\ck\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\baitap\c#\ck\obj\Debug\net8.0\scopedcss\bundle\ck.styles.css
+D:\baitap\c#\ck\obj\Debug\net8.0\scopedcss\projectbundle\ck.bundle.scp.css
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets.build.json
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets.development.json
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets\msbuild.ck.Microsoft.AspNetCore.StaticWebAssets.props
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets\msbuild.ck.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets\msbuild.build.ck.props
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ck.props
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ck.props
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets.pack.json
+D:\baitap\c#\ck\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.csproj.Up2Date
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.dll
+D:\baitap\c#\ck\obj\Debug\net8.0\refint\ck.dll
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.pdb
+D:\baitap\c#\ck\obj\Debug\net8.0\ck.genruntimeconfig.cache
+D:\baitap\c#\ck\obj\Debug\net8.0\ref\ck.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\MailKit.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\MimeKit.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\baitap\c#\ck\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\baitap\ck2\bin\Debug\net8.0\appsettings.Development.json
+D:\baitap\ck2\bin\Debug\net8.0\appsettings.json
+D:\baitap\ck2\bin\Debug\net8.0\ck.staticwebassets.endpoints.json
+D:\baitap\ck2\bin\Debug\net8.0\ck.staticwebassets.runtime.json
+D:\baitap\ck2\bin\Debug\net8.0\ck.exe
+D:\baitap\ck2\bin\Debug\net8.0\ck.deps.json
+D:\baitap\ck2\bin\Debug\net8.0\ck.runtimeconfig.json
+D:\baitap\ck2\bin\Debug\net8.0\ck.dll
+D:\baitap\ck2\bin\Debug\net8.0\ck.pdb
+D:\baitap\ck2\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\baitap\ck2\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\baitap\ck2\bin\Debug\net8.0\Humanizer.dll
+D:\baitap\ck2\bin\Debug\net8.0\MailKit.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Build.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\baitap\ck2\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\baitap\ck2\bin\Debug\net8.0\MimeKit.dll
+D:\baitap\ck2\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\baitap\ck2\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\baitap\ck2\bin\Debug\net8.0\Npgsql.dll
+D:\baitap\ck2\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\baitap\ck2\bin\Debug\net8.0\NuGet.Common.dll
+D:\baitap\ck2\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\baitap\ck2\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\baitap\ck2\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\baitap\ck2\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\baitap\ck2\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\baitap\ck2\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\baitap\ck2\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\baitap\ck2\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.CodeDom.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\baitap\ck2\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\baitap\ck2\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\baitap\ck2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\baitap\ck2\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\baitap\ck2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\baitap\ck2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\baitap\ck2\obj\Debug\net8.0\ck.csproj.AssemblyReference.cache
+D:\baitap\ck2\obj\Debug\net8.0\ck.GeneratedMSBuildEditorConfig.editorconfig
+D:\baitap\ck2\obj\Debug\net8.0\ck.AssemblyInfoInputs.cache
+D:\baitap\ck2\obj\Debug\net8.0\ck.AssemblyInfo.cs
+D:\baitap\ck2\obj\Debug\net8.0\ck.csproj.CoreCompileInputs.cache
+D:\baitap\ck2\obj\Debug\net8.0\ck.MvcApplicationPartsAssemblyInfo.cache
+D:\baitap\ck2\obj\Debug\net8.0\ck.RazorAssemblyInfo.cache
+D:\baitap\ck2\obj\Debug\net8.0\ck.RazorAssemblyInfo.cs
+D:\baitap\ck2\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\baitap\ck2\obj\Debug\net8.0\scopedcss\bundle\ck.styles.css
+D:\baitap\ck2\obj\Debug\net8.0\scopedcss\projectbundle\ck.bundle.scp.css
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets.build.json
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets.development.json
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets\msbuild.ck.Microsoft.AspNetCore.StaticWebAssets.props
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets\msbuild.ck.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets\msbuild.build.ck.props
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ck.props
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ck.props
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\baitap\ck2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\baitap\ck2\obj\Debug\net8.0\ck.csproj.Up2Date
+D:\baitap\ck2\obj\Debug\net8.0\ck.dll
+D:\baitap\ck2\obj\Debug\net8.0\refint\ck.dll
+D:\baitap\ck2\obj\Debug\net8.0\ck.pdb
+D:\baitap\ck2\obj\Debug\net8.0\ck.genruntimeconfig.cache
+D:\baitap\ck2\obj\Debug\net8.0\ref\ck.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\baitap\ck2\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\appsettings.Development.json
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\appsettings.json
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ck.staticwebassets.endpoints.json
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ck.staticwebassets.runtime.json
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ck.exe
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ck.deps.json
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ck.runtimeconfig.json
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ck.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ck.pdb
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Humanizer.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\MailKit.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Build.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\MimeKit.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Npgsql.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\NuGet.Common.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.CodeDom.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\baitap\ck2 - Copy\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.csproj.AssemblyReference.cache
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.GeneratedMSBuildEditorConfig.editorconfig
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.AssemblyInfoInputs.cache
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.AssemblyInfo.cs
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.csproj.CoreCompileInputs.cache
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.MvcApplicationPartsAssemblyInfo.cache
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.RazorAssemblyInfo.cache
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.RazorAssemblyInfo.cs
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\scopedcss\bundle\ck.styles.css
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\scopedcss\projectbundle\ck.bundle.scp.css
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets.build.json
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets.development.json
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets\msbuild.ck.Microsoft.AspNetCore.StaticWebAssets.props
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets\msbuild.ck.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets\msbuild.build.ck.props
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ck.props
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ck.props
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets.pack.json
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.csproj.Up2Date
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.dll
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\refint\ck.dll
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.pdb
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ck.genruntimeconfig.cache
+D:\baitap\ck2 - Copy\obj\Debug\net8.0\ref\ck.dll
+D:\webdatvexemphim\bin\Debug\net8.0\appsettings.Development.json
+D:\webdatvexemphim\bin\Debug\net8.0\appsettings.json
+D:\webdatvexemphim\bin\Debug\net8.0\ck.staticwebassets.endpoints.json
+D:\webdatvexemphim\bin\Debug\net8.0\ck.staticwebassets.runtime.json
+D:\webdatvexemphim\bin\Debug\net8.0\ck.exe
+D:\webdatvexemphim\bin\Debug\net8.0\ck.deps.json
+D:\webdatvexemphim\bin\Debug\net8.0\ck.runtimeconfig.json
+D:\webdatvexemphim\bin\Debug\net8.0\ck.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ck.pdb
+D:\webdatvexemphim\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\webdatvexemphim\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Humanizer.dll
+D:\webdatvexemphim\bin\Debug\net8.0\MailKit.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Build.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\webdatvexemphim\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\webdatvexemphim\bin\Debug\net8.0\MimeKit.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Npgsql.dll
+D:\webdatvexemphim\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\webdatvexemphim\bin\Debug\net8.0\NuGet.Common.dll
+D:\webdatvexemphim\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\webdatvexemphim\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\webdatvexemphim\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\webdatvexemphim\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\webdatvexemphim\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\webdatvexemphim\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\webdatvexemphim\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\webdatvexemphim\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.CodeDom.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\webdatvexemphim\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\webdatvexemphim\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\webdatvexemphim\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\webdatvexemphim\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\webdatvexemphim\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\webdatvexemphim\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\webdatvexemphim\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\webdatvexemphim\obj\Debug\net8.0\ck.csproj.AssemblyReference.cache
+D:\webdatvexemphim\obj\Debug\net8.0\ck.GeneratedMSBuildEditorConfig.editorconfig
+D:\webdatvexemphim\obj\Debug\net8.0\ck.AssemblyInfoInputs.cache
+D:\webdatvexemphim\obj\Debug\net8.0\ck.AssemblyInfo.cs
+D:\webdatvexemphim\obj\Debug\net8.0\ck.csproj.CoreCompileInputs.cache
+D:\webdatvexemphim\obj\Debug\net8.0\ck.MvcApplicationPartsAssemblyInfo.cache
+D:\webdatvexemphim\obj\Debug\net8.0\ck.RazorAssemblyInfo.cache
+D:\webdatvexemphim\obj\Debug\net8.0\ck.RazorAssemblyInfo.cs
+D:\webdatvexemphim\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\webdatvexemphim\obj\Debug\net8.0\scopedcss\bundle\ck.styles.css
+D:\webdatvexemphim\obj\Debug\net8.0\scopedcss\projectbundle\ck.bundle.scp.css
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets.build.json
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets.development.json
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets\msbuild.ck.Microsoft.AspNetCore.StaticWebAssets.props
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets\msbuild.ck.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets\msbuild.build.ck.props
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ck.props
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ck.props
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets.pack.json
+D:\webdatvexemphim\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\webdatvexemphim\obj\Debug\net8.0\ck.csproj.Up2Date
+D:\webdatvexemphim\obj\Debug\net8.0\ck.dll
+D:\webdatvexemphim\obj\Debug\net8.0\refint\ck.dll
+D:\webdatvexemphim\obj\Debug\net8.0\ck.pdb
+D:\webdatvexemphim\obj\Debug\net8.0\ck.genruntimeconfig.cache
+D:\webdatvexemphim\obj\Debug\net8.0\ref\ck.dll

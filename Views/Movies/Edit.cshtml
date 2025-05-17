@@ -1,0 +1,107 @@
+﻿@model ck.Models.Movie
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "AdminLayout";
+}
+
+<h2 class="mt-4 mb-4 text-warning">🎬 Edit Movie</h2>
+
+<div class="card shadow p-4">
+    <form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <input type="hidden" asp-for="Id" />
+
+    
+
+        <div class="mb-3">
+            <label asp-for="MovieName" class="form-label"></label>
+            <input asp-for="MovieName" class="form-control" />
+            <span asp-validation-for="MovieName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Capacity" class="form-label"></label>
+            <input asp-for="Capacity" class="form-control" />
+            <span asp-validation-for="Capacity" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Status" class="form-label"></label>
+            <select asp-for="Status" class="form-select">
+                <option value="Ongoing" selected="@((Model.Status == "Ongoing") ? "selected" : null)">Ongoing</option>
+                <option value="Coming Soon" selected="@((Model.Status == "Coming Soon") ? "selected" : null)">Coming Soon</option>
+            </select>
+            <span asp-validation-for="Status" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="MovieImage" class="form-label"></label>
+            <input asp-for="MovieImage" class="form-control" />
+            <span asp-validation-for="MovieImage" class="text-danger"></span>
+            @if (!string.IsNullOrEmpty(Model.MovieImage))
+            {
+                <div class="mt-2">
+                    <img src="@Model.MovieImage" alt="Movie Image" style="max-width: 100%; height: auto;" />
+                </div>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="GenreId" class="form-label"></label>
+            <select asp-for="GenreId" class="form-select" asp-items="ViewBag.GenreId"></select>
+            <span asp-validation-for="GenreId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Descripton" class="form-label"></label>
+            <input asp-for="Descripton" class="form-control" />
+            <span asp-validation-for="Descripton" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="MovieImage2" class="form-label"></label>
+            <input asp-for="MovieImage2" class="form-control" />
+            <span asp-validation-for="MovieImage2" class="text-danger"></span>
+            @if (!string.IsNullOrEmpty(Model.MovieImage2))
+            {
+                <div class="mt-2">
+                    <img src="@Model.MovieImage2" alt="Movie Image 2" style="max-width: 100%; height: auto;" />
+                </div>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Director" class="form-label"></label>
+            <input asp-for="Director" class="form-control" />
+            <span asp-validation-for="Director" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Video" class="form-label"></label>
+            <input asp-for="Video" class="form-control" />
+            <span asp-validation-for="Video" class="text-danger"></span>
+            @if (!string.IsNullOrEmpty(Model.Video))
+            {
+                <div class="mt-2">
+                    <video controls style="max-width: 100%;">
+                        <source src="@Model.Video" type="video/mp4">
+                        Trình duyệt của bạn không hỗ trợ video.
+                    </video>
+                </div>
+            }
+        </div>
+
+        <div class="d-flex justify-content-between mt-4">
+            <a asp-action="IndexAdmin" class="btn btn-secondary">← Back to List</a>
+            <input type="submit" value="Save Changes" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

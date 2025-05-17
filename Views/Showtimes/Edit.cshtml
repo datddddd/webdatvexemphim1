@@ -1,0 +1,52 @@
+﻿@model ck.Models.Showtime
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "AdminLayout";
+
+}
+
+<h1 class="mt-4">Edit</h1>
+
+<h4 class="mb-4">Showtime</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="MovieId" class="control-label">Movie</label>
+                <select asp-for="MovieId" class="form-control" asp-items="ViewBag.MovieId"></select>
+                <span asp-validation-for="MovieId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShowTimes" class="control-label">Show Times</label>
+                <input name="ShowTimesString" class="form-control" value="@string.Join(",", Model.ShowTimes.Select(t => t.ToString(@"hh\:mm")))" placeholder="09:00,13:00,18:00" />
+                <span asp-validation-for="ShowTimes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Capacity" class="control-label"></label>
+                <input asp-for="Capacity" class="form-control" />
+                <span asp-validation-for="Capacity" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a asp-action="Adminview" class="btn btn-secondary">Back to List</a>
+</div>

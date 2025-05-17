@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ck.Models.Movie>
+@using System.Text.Encodings.Web
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section id="trend" class="p_3 pt-0">
+    <div class="container-xl">
+        <div class="row trend_1 text-center mb-4">
+            <div class="col-md-12">
+                <span class="fa fa-film col_oran"></span>
+                <h6 class="text-muted mt-3">Watch New Movies</h6>
+                <h1 class="mb-0 font_50">Movies Now Playing</h1>
+            </div>
+        </div>
+
+        <!-- Đặt row ra ngoài vòng lặp -->
+        <div class="row trend_2" id="movieContainer">
+            @{
+                int count = 0;
+            }
+            @foreach (var movie in Model.Where(m=>m.Status=="Ongoing"))
+            {
+                <div class="col-md-3 col-sm-6 movie-item @(count >= 4 ? "d-none" : "")">
+                    <div class="trend_2i position-relative">
+                        <div class="trend_2i1">
+                            <img src="@movie.MovieImage" class="w-100" alt="abc">
+                        </div>
+                        <div class="trend_2i2 bg_back position-absolute w-100 h-100 top-0 px-4">
+                            <h6 class="font_14 text-light">@movie.genre?.Name / @movie.Capacity Minute </h6>
+                            <h5>
+                                <a asp-controller="Movies" asp-action="Details" asp-route-id="@movie.Id">@movie.MovieName</a>
+
+                            </h5>
+                            <a class="button_1 p-2 px-3 font_14" href="@Url.Action("GetTicket", "Showtimes", new { movieId = movie.Id })">Get Ticket</a>
+                        </div>
+                    </div>
+                </div>
+                count++;
+            }
+        </div>
+
+        <button id="loadMoreBtn" >
+            <a asp-controller="Movies" asp-action="Index" class="button_1 p-2 px-3 font_14">Load more</a>
+        </button>
+    </div>
+</section>

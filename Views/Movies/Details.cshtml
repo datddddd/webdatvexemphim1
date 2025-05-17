@@ -1,0 +1,98 @@
+﻿@model ck.Models.Movie
+@using System.Text.Encodings.Web
+@{
+    ViewData["Title"] = "Details";
+    Layout = "Moviedetailslayout";
+}
+
+<section id="detail" class="p_3">
+    <div class="container-xl">
+
+        <!-- Back to list -->
+        <div class="mb-4">
+            <a asp-action="Index" class="btn btn-secondary">
+                ← Back to List
+            </a>
+        </div>
+
+        <div class="detail_1 row">
+            <div class="col-md-6">
+                <div class="detail_1l">
+                    <h2>@Model?.MovieName </h2>  <!-- Default value if MovieName is null -->
+                    <h6 class="mb-0 text-muted">@Model?.Capacity Minute</h6>  <!-- Default value for price -->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="detail_1r text-end">
+                    <h6 class="mb-0">
+                        <a class="button_2" href="@Url.Action("GetTicket", "Showtimes", new { movieId = Model?.Id })">Get Ticket</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="detail_2 row mt-4">
+            <div class="col-md-4">
+                <div class="detail_2l">
+                    <div class="grid clearfix">
+                        <figure class="effect-jazz mb-0">
+                            <a href="#"><img src="@Model?.MovieImage" height="530" class="w-100" alt="@Model?.MovieName ?? " Movie Image"" /></a> <!-- Improved alt text -->
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!-- Video -->
+            <div class="col-md-8">
+
+                @{
+                    string youtubeUrl = Model?.Video;
+                    string embeddedUrl = "";
+                    if (!string.IsNullOrEmpty(youtubeUrl) && youtubeUrl.Contains("watch?v="))
+                    {
+                        embeddedUrl = youtubeUrl.Replace("watch?v=", "embed/");
+                    }
+                    // Thêm kiểm tra nếu có tham số khác trong URL
+                    if (embeddedUrl.Contains("&"))
+                    {
+                        embeddedUrl = embeddedUrl.Substring(0, embeddedUrl.IndexOf("&"));
+                    }
+                }
+                <div class="col-md-8">
+                    <div class="ratio ratio-16x9">
+                        <iframe id="youtubeVideo" src="@embeddedUrl" title="@Model?.MovieName ?? " Movie Trailer"" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="detail_3 row mt-4">
+            <div class="col-md-4">
+                <div class="detail_3l">
+                    <h6 class="mb-3 text-muted">
+                        <span class="fw-bold text-black me-4">Director:</span>
+						@Model?.Director
+                    </h6>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="detail_3l">
+                    <h6 class="mb-3 text-muted">
+                        <span class="fw-bold text-black me-4">Status:</span>
+                        @Model?.Status  
+                    </h6>
+                    <h6 class="mb-3 text-muted">
+                        <span class="fw-bold text-black me-4">Genre:</span>
+						@Model?.genre?.Name
+                    </h6>
+                </div>
+            </div>
+            </div>
+        <hr>
+            <div class="detail_4 row mt-4">
+                <div class="col-md-12">
+                    <h3>Description</h3>
+                    <p class="mt-3">@Model?.Descripton</p>
+                </div>
+            </div>
+    </div>
+</section>

@@ -1,0 +1,35 @@
+﻿@model ck.Models.User
+
+@{
+    ViewData["Title"] = "Chi tiết người dùng";
+    Layout = "AdminLayout";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Chi tiết người dùng</h2>
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Họ tên</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+                <dt class="col-sm-3">Tên đăng nhập</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Username)</dd>
+
+                <dt class="col-sm-3">Mật khẩu</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Password)</dd>
+
+                <dt class="col-sm-3">Email</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+
+                <dt class="col-sm-3">Vai trò</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Role)</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a class="btn btn-warning me-2" asp-action="Edit" asp-route-id="@Model?.Id">Chỉnh sửa</a>
+        <a class="btn btn-secondary" asp-action="Index">Quay lại danh sách</a>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "MoviesLayout";
+}
+<div class="payment-container">
+    <div class="left-column">
+        <div class="card">
+            <h4>🎬 Thông tin phim</h4>
+            <p><strong>Phim:</strong><br>Shin Cậu Bé Bút Chì: Bí Ẩn Học Viện Tenkasu</p>
+            <div class="info-grid">
+                <div><strong>Ngày giờ chiếu</strong><br><span class="highlight">16:45 - 01/05/2025</span></div>
+                <div><strong>Ghế</strong><br>A8, A9</div>
+                <div><strong>Phòng chiếu</strong><br>8</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4>💳 Thông tin thanh toán</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Danh mục</th>
+                        <th>Số lượng</th>
+                        <th>Tổng tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ghế (A8, A9)</td>
+                        <td>2</td>
+                        <td>160.000đ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="right-column card">
+        <h4>Phương thức thanh toán</h4>
+        <div class="payment-options">
+            <label><input type="radio" name="method" checked> VietQR</label>
+            <label><input type="radio" name="method"> VNPAY</label>
+            <label><input type="radio" name="method"> Viettel Money</label>
+        </div>
+
+        <div class="costs">
+            <p>Thanh toán: <span>160.000đ</span></p>
+            <p>Phí: <span>0đ</span></p>
+            <p><strong>Tổng cộng:</strong> <span class="highlight">160.000đ</span></p>
+        </div>
+
+        <button class="btn-pay">Thanh toán</button>
+        <button class="btn-back">← Quay lại</button>
+
+        <p class="note">
+            ⚠️ Không mua vé cho trẻ em dưới 13 tuổi với suất chiếu kết thúc sau 22h00.<br>
+            ⚠️ Không cho trẻ dưới 16 tuổi xem phim sau 23h00.
+        </p>
+    </div>
+</div>
+</section>

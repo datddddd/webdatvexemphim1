@@ -1,0 +1,18 @@
+﻿@model IEnumerable<ck.Models.Movie>
+@{
+    ViewData["Title"] = "Movies by Genre";
+    Layout = "MoviesLayout";
+}
+
+<section id="trend" class="p_3">
+    <div class="container-xl">
+        <div class="row trend_2">
+            <h2 class="mb-4">Movies in Genre: @ViewBag.GenreName</h2>
+
+            @foreach (var movie in Model)
+            {
+                @await Html.PartialAsync("_MovieCardPartial", movie)
+            }
+        </div>
+    </div>
+</section>

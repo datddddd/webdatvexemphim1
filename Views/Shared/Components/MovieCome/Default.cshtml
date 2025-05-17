@@ -1,0 +1,67 @@
+﻿@model List<ck.Models.Movie>
+@using System.Text.Encodings.Web
+
+<section id="trend_o" class="py-5 bg-light">
+    <div class="container">
+        <div class="row text-center mb-4">
+            <div class="col-12">
+                <i class="fa fa-film text-warning fa-3x mb-3"></i>
+                <h6 class="text-muted">New Upcoming Movies</h6>
+                <h2 class="mb-0">Movies Coming Soon</h2>
+            </div>
+        </div>
+        @{
+            int comingSoonCount = 0;
+        }
+        <div class="row" id="movieContainer">
+            @foreach (var movie in Model.Where(m => m.Status == "Coming soon"))
+            {
+                <div class="col-md-3 col-sm-6 movie-item @(comingSoonCount >= 4 ? "d-none" : "")">
+                    <div class="trend_2i position-relative">
+                        <div class="trend_2i1">
+                            <img src="@movie.MovieImage" class="w-100" alt="@movie.MovieName">
+                        </div>
+                        <div class="trend_2i2 bg_back position-absolute w-100 h-100 top-0 px-4">
+                            <h6 class="font_14 text-light">@movie.genre?.Name / @movie.Capacity Minute</h6>
+                            <h5>
+                                <a asp-controller="Movies" asp-action="Details" asp-route-id="@movie.Id" class="text-white">
+                                    @movie.MovieName
+                                </a>
+                            </h5>
+                            <a class="button_1 p-2 px-3 font_14" href="@Url.Action("GetTicket", "Showtimes", new { movieId = movie.Id })">Get Ticket</a>
+                        </div>
+                    </div>
+                </div>
+                comingSoonCount++;
+            }
+        </div>
+
+            @if (Model.Count(m => m.Status == "Coming soon") > 4)
+            {
+                <div class="col-12 text-center mt-4">
+                    <button class="btn btn-outline-secondary btn-sm" id="loadMoreMovies">Load More</button>
+                </div>
+            }
+        </div>
+
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const movieItems = document.querySelectorAll('.movie-item');
+        const loadMoreButton = document.getElementById('loadMoreMovies');
+        let visibleCount = 4;
+
+        if (loadMoreButton) {
+            loadMoreButton.addEventListener('click', function() {
+                for (let i = visibleCount; i < Math.min(visibleCount + 4, movieItems.length); i++) {
+                    movieItems[i].classList.remove('d-none');
+                }
+                visibleCount += 4;
+                if (visibleCount >= movieItems.length) {
+                    loadMoreButton.classList.add('d-none');
+                }
+            });
+        }
+    });
+</script>

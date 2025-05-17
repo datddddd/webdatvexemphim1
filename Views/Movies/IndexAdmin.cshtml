@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ck.Models.Movie>
+
+@{
+    Layout = "AdminLayout";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="mb-0">Danh sách phim</h2>
+        <a class="btn btn-primary" asp-action="Create">
+            <i class="bi bi-plus-circle"></i> Thêm phim
+        </a>
+    </div>
+
+    <table class="table table-bordered table-hover shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.MovieName)</th>
+                <th>@Html.DisplayNameFor(model => model.Capacity)</th>
+                <th>@Html.DisplayNameFor(model => model.Status)</th>
+                <th>@Html.DisplayNameFor(model => model.MovieImage)</th>
+                <th>@Html.DisplayNameFor(model => model.CreateAt)</th>
+                <th>@Html.DisplayNameFor(model => model.genre)</th>
+                <th>@Html.DisplayNameFor(model => model.Descripton)</th>
+                <th>@Html.DisplayNameFor(model => model.MovieImage2)</th>
+                <th>@Html.DisplayNameFor(model => model.Director)</th>
+                <th>@Html.DisplayNameFor(model => model.Video)</th>
+                <th class="text-center">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.MovieName)</td>
+               
+                    <td>@Html.DisplayFor(modelItem => item.Capacity)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                    <td>@Html.DisplayFor(modelItem => item.MovieImage)</td>
+                    <td>@Html.DisplayFor(modelItem => item.CreateAt)</td>
+                    <td>@Html.DisplayFor(modelItem => item.genre.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Descripton)</td>
+                    <td>@Html.DisplayFor(modelItem => item.MovieImage2)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Director)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Video)</td>
+                    <td class="text-center">
+                        <a class="btn btn-sm btn-warning me-1" asp-controller="Movies" asp-action="Edit" asp-route-id="@item.Id">Sửa</a>
+                        <a class="btn btn-sm btn-info text-white me-1" asp-controller="Movies" asp-action="DetailsAdmin" asp-route-id="@item.Id">Chi tiết</a>
+                        <a class="btn btn-sm btn-danger" asp-controller="Movies" asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,204 @@
+﻿/* Cải tiến phần Showtime */
+.showtime-container {
+    max-width: 900px; /* Giới hạn chiều rộng để dễ nhìn hơn */
+    margin: auto;
+}
+
+.step h5 i {
+    /* color: var(--bs-primary); /* Sử dụng màu primary của Bootstrap */
+    /* Hoặc dùng màu cam của theme nếu muốn */
+    color: #ff7f00; /* Giả sử đây là màu .col_oran */
+}
+
+/* Nút chọn ngày/giờ */
+#dateButtons .btn,
+#timeButtons .btn {
+    min-width: 100px; /* Đảm bảo nút không quá nhỏ */
+    transition: all 0.3s ease;
+    border-radius: 20px; /* Bo tròn nút */
+}
+
+    #dateButtons .btn.active, /* Sử dụng class active của Bootstrap */
+    #timeButtons .btn.active {
+        /* background-color: var(--bs-primary); */
+        background-color: #ff7f00; /* Màu cam theme */
+        border-color: #ff7f00;
+        color: white;
+        font-weight: bold;
+    }
+
+    #dateButtons .btn:not(.active):hover,
+    #timeButtons .btn:not(.active):hover {
+        background-color: #ffe8d1; /* Màu nền nhẹ khi hover */
+    }
+
+
+/* Sơ đồ ghế */
+.screen-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.screen {
+    width: 80%;
+    max-width: 400px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%); /* Tạo hình thang */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    background-color: #343a40; /* Màu bg-dark của bootstrap */
+}
+
+.seat-map-container {
+    overflow-x: auto; /* Cho phép cuộn ngang nếu ghế quá nhiều */
+    padding: 10px 0;
+}
+
+.seat-map {
+    display: grid;
+    /* grid-template-columns được set bằng JS */
+    gap: 8px; /* Khoảng cách giữa các ghế */
+    justify-content: center; /* Căn giữa sơ đồ */
+}
+
+.seat {
+    display: inline-block;
+    width: 35px; /* Tăng kích thước ghế */
+    height: 35px;
+    line-height: 35px; /* Căn giữa số ghế theo chiều dọc */
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bo tròn nhiều hơn */
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #f8f9fa; /* Màu ghế trống mặc định */
+    color: #6c757d;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+    user-select: none; /* Không cho phép chọn text ghế */
+}
+
+    .seat:hover:not(.unavailable):not(.selected) {
+        background-color: #e2e6ea;
+        transform: scale(1.1);
+    }
+
+    .seat.selected {
+        /* background-color: var(--bs-success); */
+        background-color: #198754; /* Màu success của bootstrap */
+        color: white;
+        /* border-color: #146c43; */
+        border-color: #198754;
+        transform: scale(1.05); /* Hiệu ứng nhẹ khi chọn */
+    }
+
+    .seat.unavailable {
+        background-color: #6c757d; /* Màu xám đậm khi đã bán */
+        color: #e9ecef;
+        cursor: not-allowed;
+        border-color: #5a6268;
+        opacity: 0.7;
+    }
+
+    /* Thêm hàng ghế (Ví dụ A1, A2, ...) */
+    .seat.row-label {
+        background-color: transparent;
+        border: none;
+        cursor: default;
+        font-weight: bold;
+        color: #333;
+        text-align: right;
+        padding-right: 15px; /* Tăng khoảng cách */
+        width: auto; /* Để nó tự động co giãn */
+        line-height: 35px;
+    }
+
+    .seat.spacer { /* Dùng để tạo khoảng trống lối đi */
+        background-color: transparent;
+        border: none;
+        cursor: default;
+        width: 15px; /* Độ rộng lối đi */
+    }
+
+/* Chú thích ghế */
+.seat-legend {
+    font-size: 0.9em;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    display: inline-flex; /* Để nó chỉ chiếm đủ không gian cần thiết */
+    gap: 15px; /* Khoảng cách giữa các mục chú thích */
+}
+
+.seat-example {
+    display: inline-block;
+    width: 20px; /* Kích thước mẫu lớn hơn */
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 8px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+
+    .seat-example.available {
+        background-color: #f8f9fa;
+    }
+
+    .seat-example.selected {
+        background-color: #198754;
+        border-color: #198754;
+    }
+
+    .seat-example.unavailable {
+        background-color: #6c757d;
+        border-color: #5a6268;
+    }
+
+/* Tóm tắt đặt vé */
+.booking-summary {
+    border-top: 1px dashed #ccc; /* Ngăn cách rõ hơn */
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+    .booking-summary strong {
+        color: #333;
+    }
+
+#selected-seats-list {
+    font-weight: bold;
+    /* color: var(--bs-primary); */
+    color: #ff7f00; /* Màu cam theme */
+}
+
+/* Vô hiệu hóa nút đặt vé */
+#bookButton:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+
+/* Sử dụng font Poppins làm font chính */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Platypi', serif; /* Font tiêu đề */
+}
+
+.navbar-brand, #footer .footer_1l h4 a {
+    font-family: 'Platypi', serif; /* Đảm bảo logo dùng font Platypi */
+}
+
+.nav-link, .dropdown-item, .button, #footer p, #footer h6 a, #footer_b p {
+    font-family: 'Poppins', sans-serif; /* Các text khác dùng Poppins */
+}
+
+.col_oran {
+    color: #ff7f00 !important;
+}
+/* Định nghĩa màu cam */
+
+/* Global CSS có thể cần điều chỉnh để phù hợp với font mới */
+/* Ví dụ: điều chỉnh line-height, letter-spacing nếu cần */

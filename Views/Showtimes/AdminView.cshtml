@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ck.Models.Showtime>
+
+@{
+    Layout = "AdminLayout";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="mb-0">Danh sách suất chiếu</h2>
+        <a class="btn btn-primary" asp-action="Create">
+            <i class="bi bi-plus-circle"></i> Thêm suất chiếu
+        </a>
+    </div>
+
+    <table class="table table-bordered table-hover shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>Tên phim</th>
+                <th>Ngày chiếu</th>
+                <th>Giờ chiếu</th>
+                <th>Giá vé</th>
+                <th>Sức chứa</th>
+                <th class="text-center">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@(item.Movie?.MovieName ?? "[Không có phim]")</td>
+                        <td>@item.Date.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            @if (item.ShowTimes != null && item.ShowTimes.Any())
+                            {
+                                foreach (var time in item.ShowTimes)
+                                {
+                                    <span>
+                                        @time.ToString(@"hh\:mm")
+                                    </span>
+                                }
+                            }
+                            else
+                            {
+                                <span>[Không có giờ chiếu]</span>
+                            }
+                        </td>
+                        <td>@item.Price.ToString("N0")đ</td>
+                        <td>@item.Capacity</td>
+                        <td class="text-center">
+                            <a class="btn btn-sm btn-warning me-1" asp-action="Edit" asp-route-id="@item.Id">Sửa</a>
+                            <a class="btn btn-sm btn-info text-white me-1" asp-action="Details" asp-route-id="@item.Id">Chi tiết</a>
+                            <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6" class="text-center text-muted">Không có suất chiếu nào được tìm thấy.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

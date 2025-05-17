@@ -1,0 +1,54 @@
+﻿.payment-container {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.payment-options label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.btn-pay {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-back {
+    background: transparent;
+    color: #333;
+    padding: 10px 20px;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.note {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #888;
+}

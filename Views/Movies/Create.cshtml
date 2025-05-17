@@ -1,0 +1,157 @@
+﻿@model ck.Models.Movie
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "AdminLayout";
+}
+
+<h2 class="mt-4 mb-4 text-primary">🎬 Create New Movie</h2>
+
+<div class="card shadow p-4">
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+       
+
+        <div class="mb-3">
+            <label asp-for="MovieName" class="form-label"></label>
+            <input asp-for="MovieName" class="form-control" />
+            <span asp-validation-for="MovieName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Capacity" class="form-label"></label>
+            <input asp-for="Capacity" class="form-control" />
+            <span asp-validation-for="Capacity" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Status" class="form-label"></label>
+            <select asp-for="Status" class="form-select">
+                <option value="Ongoing">Ongoing</option>
+                <option value="Coming Soon">Coming Soon</option>
+            </select>
+            <span asp-validation-for="Status" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="MovieImage" class="form-label"></label>
+            <input asp-for="MovieImage" class="form-control" id="movieImageInput" />
+            <span asp-validation-for="MovieImage" class="text-danger"></span>
+            <div class="mt-2" id="movieImagePreview" style="display:none;">
+                <img id="previewImg1" src="" alt="Preview Image" style="max-width: 100%; height: auto;" />
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CreateAt" class="form-label"></label>
+            <input asp-for="CreateAt" class="form-control" />
+            <span asp-validation-for="CreateAt" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="GenreId" class="form-label"></label>
+            <select asp-for="GenreId" class="form-select" asp-items="ViewBag.GenreId"></select>
+            <span asp-validation-for="GenreId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Descripton" class="form-label"></label>
+            <input asp-for="Descripton" class="form-control" />
+            <span asp-validation-for="Descripton" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="MovieImage2" class="form-label"></label>
+            <input asp-for="MovieImage2" class="form-control" id="movieImage2Input" />
+            <span asp-validation-for="MovieImage2" class="text-danger"></span>
+            <div class="mt-2" id="movieImage2Preview" style="display:none;">
+                <img id="previewImg2" src="" alt="Preview Image 2" style="max-width: 100%; height: auto;" />
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Director" class="form-label"></label>
+            <input asp-for="Director" class="form-control" />
+            <span asp-validation-for="Director" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Video" class="form-label"></label>
+            <input asp-for="Video" class="form-control" id="videoInput" />
+            <span asp-validation-for="Video" class="text-danger"></span>
+            <div class="mt-2" id="videoPreview" style="display:none;">
+                <div id="youtubeEmbed" class="ratio ratio-16x9" style="display: none;">
+                    <iframe id="youtubeIframe" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <video controls style="max-width: 100%; display: none;" id="previewVideo">
+                    <source src="" type="video/mp4" />
+                    Trình duyệt của bạn không hỗ trợ video.
+                </video>
+            </div>
+        </div>
+
+
+        <div class="d-flex justify-content-between mt-4">
+            <a asp-action="Index" class="btn btn-secondary">← Back to List</a>
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script>
+        function previewImage(inputId, previewDivId, imgId) {
+            const input = document.getElementById(inputId);
+            const preview = document.getElementById(previewDivId);
+            const img = document.getElementById(imgId);
+
+            input.addEventListener('input', () => {
+                if (input.value) {
+                    img.src = input.value;
+                    preview.style.display = "block";
+                } else {
+                    preview.style.display = "none";
+                }
+            });
+        }
+
+        function previewVideo(inputId, previewDivId, videoId) {
+            const input = document.getElementById(inputId);
+            const preview = document.getElementById(previewDivId);
+            const video = document.getElementById(videoId);
+            const youtubeDiv = document.getElementById("youtubeEmbed");
+            const youtubeIframe = document.getElementById("youtubeIframe");
+
+            input.addEventListener('input', () => {
+                const value = input.value.trim();
+                const youtubeMatch = value.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^\s&]+)/);
+
+                if (youtubeMatch) {
+                    const youtubeId = youtubeMatch[1];
+                    youtubeIframe.src = `https://www.youtube.com/embed/${youtubeId}`;
+                    youtubeDiv.style.display = "block";
+                    video.style.display = "none";
+                } else if (value.endsWith(".mp4")) {
+                    video.querySelector("source").src = value;
+                    video.load();
+                    video.style.display = "block";
+                    youtubeDiv.style.display = "none";
+                } else {
+                    video.style.display = "none";
+                    youtubeDiv.style.display = "none";
+                }
+
+                preview.style.display = value ? "block" : "none";
+            });
+        }
+
+        previewImage("movieImageInput", "movieImagePreview", "previewImg1");
+        previewImage("movieImage2Input", "movieImage2Preview", "previewImg2");
+        previewVideo("videoInput", "videoPreview", "previewVideo");
+    </script>
+}
+

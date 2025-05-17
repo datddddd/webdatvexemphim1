@@ -1,0 +1,314 @@
+﻿@model IEnumerable<ck.Models.Showtime>
+
+@{
+    ViewData["Title"] = "Chọn Lịch Chiếu & Ghế Ngồi";
+    Layout = "PageLayout";
+}
+
+<section id="showtime" class="pt-5 pb-5 bg-light">
+    <div class="container">
+        <div class="showtime-container p-4 p-md-5 border rounded shadow-sm bg-white">
+            <h2 class="text-center mb-4 fw-bold">Chọn Lịch Chiếu & Ghế Ngồi</h2>
+            <hr class="mb-4">
+
+            <div class="step mb-4 pb-3 border-bottom">
+                <h5 class="mb-3 fw-semibold text-primary"><i class="fa fa-calendar me-2"></i>Bước 1: Chọn ngày chiếu</h5>
+                <div class="d-flex flex-wrap justify-content-center gap-2" id="dateButtons">
+                    @{
+                        var dates = Model.Select(s => s.Date).Distinct().OrderBy(d => d);
+                        foreach (var date in dates)
+                        {
+                            <button type="button" class="btn btn-outline-dark date-btn" data-date="@date.ToString("yyyy-MM-dd")">
+                                @date.ToString("dd/MM/yyyy")
+                            </button>
+                        }
+                    }
+                </div>
+            </div>
+
+            <div class="step mb-4 pb-3 border-bottom" id="timeSection" style="display:none;">
+                <h5 class="mb-3 fw-semibold text-primary"><i class="fa fa-clock-o me-2"></i>Bước 2: Chọn giờ chiếu</h5>
+                <div class="d-flex flex-wrap justify-content-center gap-2" id="timeButtons">
+                </div>
+            </div>
+
+            <div class="step" id="seatSection" style="display:none;">
+                <h5 class="mb-3 fw-semibold text-primary text-center"><i class="fa fa-ticket me-2"></i>Bước 3: Chọn ghế ngồi</h5>
+
+                <div class="screen-container mb-4">
+                    <div class="screen text-center text-white p-2 rounded shadow-sm bg-dark">MÀN HÌNH</div>
+                </div>
+
+                <div class="seat-map-container d-flex justify-content-center mb-4">
+                    <div class="seat-map" id="seats"></div>
+                </div>
+
+                <div class="d-flex justify-content-center mb-4">
+                    <div class="seat-legend d-flex gap-4">
+                        <div><span class="seat-example available"></span> Ghế trống</div>
+                        <div><span class="seat-example selected"></span> Đang chọn</div>
+                        <div><span class="seat-example unavailable"></span> Đã bán</div>
+                    </div>
+                </div>
+
+                <div class="booking-summary text-center">
+                    <h6>Tóm tắt đặt vé</h6>
+                    <p id="selected-info" class="text-muted">Vui lòng chọn ngày, giờ và ghế.</p>
+                    <p><strong>Ghế đã chọn:</strong> <span id="selected-seats-list">Chưa chọn</span></p>
+                    <button class="btn btn-success btn-lg mt-2" id="bookButton" disabled>
+                        <i class="fa fa-check-circle me-2"></i>Đặt vé
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        const movieId = @ViewBag.MovieId;
+        let selectedDate = null;
+        let selectedTime = null;
+        let selectedShowtimeId = null;
+        let selectedSeats = [];
+
+        const dateButtons = document.getElementById('dateButtons');
+        const timeSection = document.getElementById('timeSection');
+        const timeButtonsContainer = document.getElementById('timeButtons');
+        const seatSection = document.getElementById('seatSection');
+        const seatsContainer = document.getElementById('seats');
+        const selectedSeatsList = document.getElementById('selected-seats-list');
+        const bookButton = document.getElementById('bookButton');
+
+        dateButtons.addEventListener('click', function (event) {
+            if (event.target.classList.contains('date-btn')) {
+                document.querySelectorAll('.date-btn').forEach(btn => btn.classList.remove('active'));
+                event.target.classList.add('active');
+                selectedDate = event.target.getAttribute('data-date');
+
+                fetch(`/Showtimes/GetShowtimesByDate?date=${selectedDate}&movieId=${movieId}`)
+                    .then(response => response.json())
+                    .then(showtimes => {
+                        timeButtonsContainer.innerHTML = '';
+                        if (showtimes && showtimes.length > 0) {
+                                    showtimes.forEach(showtime => {
+                                    showtime.times.forEach(time => {
+                                        const btn = document.createElement('button');
+                                        btn.type = 'button';
+                                        btn.classList.add('btn', 'btn-outline-primary', 'time-btn', 'me-2', 'mb-2');
+                                        btn.textContent = time;
+                                        btn.setAttribute('data-showtime-id', showtime.id);
+                                        timeButtonsContainer.appendChild(btn);
+                                    });
+                                });
+
+                            timeSection.style.display = 'block';
+                            seatSection.style.display = 'none';
+                            updateSelectedSeatsInfo(true);
+                        } else {
+                            timeSection.style.display = 'none';
+                            seatSection.style.display = 'none';
+                            updateSelectedSeatsInfo(true, `Không có suất chiếu vào ngày ${formatDateDisplay(selectedDate)}.`);
+                        }
+                        selectedTime = null;
+                        selectedSeats = [];
+                    })
+                    .catch(error => {
+                        console.error(error);
+                        updateSelectedSeatsInfo(true, 'Đã xảy ra lỗi khi tải dữ liệu.');
+                    });
+            }
+        });
+
+                timeButtonsContainer.addEventListener('click', function (event) {
+            if (event.target.classList.contains('time-btn')) {
+                document.querySelectorAll('.time-btn').forEach(btn => btn.classList.remove('active'));
+                event.target.classList.add('active');
+                selectedTime = event.target.textContent;
+                selectedShowtimeId = event.target.getAttribute('data-showtime-id');
+
+                fetch(`/Showtimes/GetSeats?showtimeId=${selectedShowtimeId}`)
+            .then(response => response.json())
+            .then(data => { // Thay đổi từ 'seats' thành 'data'
+                seatsContainer.innerHTML = '';
+                const seats = data.seats; // Lấy danh sách ghế từ data
+                const capacity = data.capacity; // Lấy SoLuong từ data
+                //const rows = 10;
+                //const cols = 5;
+                let seatIndex = 0;
+
+                // Tính toán số hàng và cột dựa trên capacity.  Đây là một cách đơn giản,
+                // bạn có thể cần điều chỉnh cho phù hợp với bố cục mong muốn của mình.
+                const cols = Math.ceil(Math.sqrt(capacity)); // Số cột gần đúng
+                const rows = Math.ceil(capacity / cols);
+
+
+                for (let i = 0; i < rows; i++) {
+                    const row = document.createElement('div');
+                    row.classList.add('seat-row', 'd-flex');
+                    for (let j = 0; j < cols; j++) {
+                        if (seatIndex < seats.length) {
+                            const seat = seats[seatIndex];
+                            const seatDiv = document.createElement('div');
+                            seatDiv.classList.add('seat');
+                            seatDiv.setAttribute('data-seat-id', seat.id);
+                            seatDiv.setAttribute('data-seat-number', seat.seatNumber);
+                            if (!seat.isAvailable) {
+                                seatDiv.classList.add('unavailable');
+                            } else {
+                                seatDiv.classList.add('available');
+                                seatDiv.addEventListener('click', toggleSeat);
+                            }
+                            row.appendChild(seatDiv);
+                            seatIndex++;
+                        } else if (seatIndex < capacity) {
+                             const seatDiv = document.createElement('div');
+                             seatDiv.classList.add('seat');
+                             seatDiv.classList.add('available');
+                             seatDiv.setAttribute('data-seat-id', -1);
+                             seatDiv.setAttribute('data-seat-number', seatIndex+1);
+                             seatDiv.addEventListener('click', toggleSeat);
+                             row.appendChild(seatDiv);
+                             seatIndex++;
+                        }
+                        else {
+                            // Thêm một div trống nếu vượt quá số ghế thực tế
+                            const empty = document.createElement('div');
+                            empty.classList.add('seat', 'empty');
+                            row.appendChild(empty);
+                        }
+                    }
+                    seatsContainer.appendChild(row);
+                }
+
+                seatSection.style.display = 'block';
+                selectedSeats = [];
+                updateSelectedSeatsInfo();
+                bookButton.disabled = true;
+            })
+            .catch(error => {
+                console.error(error);
+                updateSelectedSeatsInfo(true, 'Lỗi khi tải ghế.');
+            });
+            }
+        });
+
+        function toggleSeat(event) {
+            const seat = event.target;
+            const seatId = parseInt(seat.getAttribute('data-seat-id'));
+            const seatNumber = seat.getAttribute('data-seat-number');
+            if (seat.classList.contains('selected')) {
+                seat.classList.remove('selected');
+                selectedSeats = selectedSeats.filter(s => s.id !== seatId);
+            } else {
+                seat.classList.add('selected');
+                selectedSeats.push({ id: seatId, number: seatNumber });
+            }
+            updateSelectedSeatsInfo();
+            bookButton.disabled = selectedSeats.length === 0;
+        }
+
+        function updateSelectedSeatsInfo(reset = false, message = '') {
+            if (reset) {
+                document.getElementById('selected-info').textContent = message || 'Vui lòng chọn giờ chiếu.';
+                selectedSeatsList.textContent = 'Chưa chọn';
+            } else {
+                const seatNumbers = selectedSeats.map(s => s.number).join(', ');
+                selectedSeatsList.textContent = seatNumbers || 'Chưa chọn';
+                document.getElementById('selected-info').textContent = `Đã chọn ngày ${formatDateDisplay(selectedDate)}, giờ ${selectedTime}. Ghế: ${seatNumbers}.`;
+            }
+        }
+
+        function formatDateDisplay(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString('vi-VN');
+        }
+
+        bookButton.addEventListener('click', function () {
+            if (selectedShowtimeId && selectedSeats.length > 0) {
+                const bookingData = {
+                    showtimeId: selectedShowtimeId,
+                    selectedSeats: selectedSeats.map(s => s.id)
+                };
+                fetch('/Bookings/CreateBooking', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(bookingData)
+                })
+                    .then(response => response.json())
+                    .then(result => {
+                        if (result.success) {
+                            alert('Đặt vé thành công!');
+                             const ticketIds = result.ticketIds;
+                             console.log('Chuyển hướng đến:', `/Tickets/Payment?ticketIds=${ticketIds}`);
+                             window.location.href = `/Tickets/Payment?ticketIds=${ticketIds}`;
+                        } else {
+                            alert('Đặt vé thất bại: ' + (result.message || 'Lỗi không xác định.'));
+                        }
+                    })
+                    .catch(error => {
+                        console.error(error);
+                        alert('Đã xảy ra lỗi khi đặt vé.');
+                    });
+            } else {
+                alert('Vui lòng chọn ngày, giờ và ghế.');
+            }
+        });
+    </script>
+}
+
+<style>
+    .seat {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ccc;
+        margin: 3px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+        .seat.available {
+            background-color: #e0e0e0;
+        }
+
+        .seat.selected {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .seat.unavailable {
+            background-color: #888;
+            cursor: not-allowed;
+        }
+
+        .seat.empty {
+            visibility: hidden;
+        }
+
+    .screen {
+        background-color: #222;
+        font-weight: bold;
+    }
+
+    .seat-example {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        border-radius: 3px;
+    }
+
+        .seat-example.available {
+            background-color: #e0e0e0;
+        }
+
+        .seat-example.selected {
+            background-color: #4CAF50;
+        }
+
+        .seat-example.unavailable {
+            background-color: #888;
+        }
+</style>

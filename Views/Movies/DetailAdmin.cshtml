@@ -1,0 +1,106 @@
+﻿@model ck.Models.Movie
+
+@{
+    ViewData["Title"] = "Movie Details";
+    Layout = "AdminLayout";
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="table-responsive" style="overflow-x: auto;" >
+    <div class="card shadow p-4 mb-4" style="min-width: 900px;">
+        <h2 class="mt-4 text-primary">🎬 Movie Details</h2>
+
+<div class="card shadow p-4 mb-4">
+    <div class="row mb-3">
+        
+        <div class="col-md-6">
+            <strong>🎬 Name:</strong> @Model.MovieName
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <strong>🪑 Time:</strong> @Model.Capacity
+        </div>
+        <div class="col-md-4">
+            <strong>📡 Status:</strong> @Model.Status
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <strong>📝 Description:</strong><br />
+            <p class="text-muted">@Model.Descripton</p>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <strong>🎬 Director:</strong> @Model.Director
+        </div>
+        <div class="col-md-6">
+            <strong>📅 Created At:</strong> @Model.CreateAt?.ToString("dd/MM/yyyy")
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <strong>🖼️ Image 1:</strong><br />
+            @if (!string.IsNullOrEmpty(Model.MovieImage))
+            {
+                <img src="@Model.MovieImage" class="img-fluid rounded border" style="max-height: 200px;" />
+            }
+        </div>
+        <div class="col-md-6">
+            <strong>🖼️ Image 2:</strong><br />
+            @if (!string.IsNullOrEmpty(Model.MovieImage2))
+            {
+                <img src="@Model.MovieImage2" class="img-fluid rounded border" style="max-height: 200px;" />
+            }
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <strong>📺 Video Preview:</strong><br />
+        @if (!string.IsNullOrEmpty(Model.Video))
+        {
+            var youtubeMatch = System.Text.RegularExpressions.Regex.Match(Model.Video, @"(?:youtube\.com/watch\?v=|youtu\.be/)([^\s&]+)");
+            if (youtubeMatch.Success)
+            {
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/@youtubeMatch.Groups[1].Value"
+                            title="YouTube Video" frameborder="0" allowfullscreen></iframe>
+                </div>
+            }
+            else if (Model.Video.EndsWith(".mp4"))
+            {
+                <video controls class="w-100 rounded shadow">
+                    <source src="@Model.Video" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            }
+            else
+            {
+                <p class="text-danger">⚠️ Invalid video format</p>
+            }
+        }
+        else
+        {
+            <p class="text-muted">No video provided.</p>
+        }
+    </div>
+
+    <div class="mb-3">
+        <strong>📂 Genre:</strong> @Model.genre?.Name
+    </div>
+</div>
+
+<div class="d-flex justify-content-between">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+        ✏️ Edit
+    </a>
+    <a asp-action="IndexAdmin" class="btn btn-secondary">
+        ← Back to List
+    </a>
+</div>
+    </div>
+</div>

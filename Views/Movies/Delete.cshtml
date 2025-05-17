@@ -1,0 +1,61 @@
+﻿@model ck.Models.Movie
+
+@{
+    ViewData["Title"] = "Delete Movie";
+    Layout = "AdminLayout";
+}
+
+<h2 class="text-danger mt-4">🗑 Xác nhận xoá phim</h2>
+<p class="mb-4 text-muted">Bạn có chắc chắn muốn xoá phim này không? Hành động này không thể hoàn tác.</p>
+
+<div class="card shadow p-4 mb-4">
+    <h4 class="text-primary mb-3">🎬 Thông tin phim</h4>
+    <dl class="row">
+    
+
+        <dt class="col-sm-3">Tên phim</dt>
+        <dd class="col-sm-9">@Model.MovieName</dd>
+
+
+        <dt class="col-sm-3">Thời lượng</dt>
+        <dd class="col-sm-9">@Model.Capacity P</dd>
+
+        <dt class="col-sm-3">Trạng thái</dt>
+        <dd class="col-sm-9">@Model.Status</dd>
+
+        <dt class="col-sm-3">Ảnh 1</dt>
+        <dd class="col-sm-9">
+            <img src="@Model.MovieImage" class="img-thumbnail" style="max-width: 200px;" />
+        </dd>
+
+        <dt class="col-sm-3">Ảnh 2</dt>
+        <dd class="col-sm-9">
+            <img src="@Model.MovieImage2" class="img-thumbnail" style="max-width: 200px;" />
+        </dd>
+
+        <dt class="col-sm-3">Video</dt>
+        <dd class="col-sm-9">
+            <video src="@Model.Video" controls style="max-width: 100%;"></video>
+        </dd>
+
+        <dt class="col-sm-3">Đạo diễn</dt>
+        <dd class="col-sm-9">@Model.Director</dd>
+
+        <dt class="col-sm-3">Mô tả</dt>
+        <dd class="col-sm-9">@Model.Descripton</dd>
+
+        <dt class="col-sm-3">Ngày tạo</dt>
+        <dd class="col-sm-9">@Model.CreateAt?.ToString("dd/MM/yyyy")</dd>
+
+        <dt class="col-sm-3">Thể loại</dt>
+        <dd class="col-sm-9">@Model.genre?.Name</dd>
+    </dl>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <div class="d-flex justify-content-between">
+        <a asp-action="IndexAdmin" class="btn btn-secondary">← Quay lại</a>
+        <input type="submit" value="Xác nhận xoá" class="btn btn-danger" />
+    </div>
+</form>

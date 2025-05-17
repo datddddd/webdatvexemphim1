@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Theme</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/global.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/script.js"></script>
+</head>
+<body>
+	@using Microsoft.AspNetCore.Http
+	@inject IHttpContextAccessor HttpContextAccessor
+
+	@{
+		var username = Context.Session.GetString("Username");
+		var name = Context.Session.GetString("Name");
+		var role = Context.Session.GetString("Role");
+		var userId = Context.Session.GetString("UserId");
+
+	}
+	<div class="main_o main">
+		<div class="main_o1 bg_back">
+			<section id="header">
+				<nav class="navbar navbar-expand-md navbar-light px_4" id="navbar_sticky">
+					<div class="container-fluid">
+						<a class="navbar-brand  p-0 fw-bold text-white" asp-controller="Home" asp-action="Index"><i class="fa fa-modx col_oran"></i> Movie Theme </a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mb-0 ms-auto">
+
+								<li class="nav-item">
+									<a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" asp-controller="Pages" asp-action="About">About Us</a>
+								</li>
+
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Movies
+									</a>
+									<ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+										<li><a class="dropdown-item" asp-controller="Movies" asp-action="Index"><i class="fa fa-chevron-right font_12 me-1"></i> Movies</a></li>
+										@await Component.InvokeAsync("NavBar")
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" asp-controller="Pages" asp-action="Index">Faqs</a>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" asp-controller="Pages" asp-action="Contactus">Contact Us</a>
+								</li>
+								@if (!string.IsNullOrEmpty(username))
+								{
+									<li class="nav-item">
+										<a class="nav-link" asp-controller="Tickets" asp-action="MyTickets">My Tickets</a>
+									</li>
+								}
+								@if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+								{
+									<li class="nav-item">
+										<a class="nav-link " asp-controller="Admin" asp-action="Index">Admin</a>
+									</li>
+								}
+							</ul>
+							<ul class="navbar-nav mb-0 ms-auto">
+								<li class="nav-item">
+									<a class="nav-link fs-5 drop_icon" data-bs-target="#exampleModal2" data-bs-toggle="modal" href="#"><i class="fa fa-search"></i></a>
+								</li>
+								<!--Login-->
+								<li class="nav-item dropdown">
+									<a class="nav-link fs-5 drop_icon dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+										<i class="fa fa-user"></i>
+									</a>
+									<ul class="dropdown-menu dropdown-menu-end">
+										@if (!string.IsNullOrEmpty(username))
+										{
+											<li><a class="dropdown-item" href="/Users/Profile">@username</a></li>
+											<li><a class="dropdown-item text-danger" href="/Users/Logout">Logout</a></li>
+										}
+										else
+										{
+											<li><a class="dropdown-item" href="/Users/Login">Login</a></li>
+											<li><a class="dropdown-item" href="/Users/Register">Register</a></li>
+										}
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</section>
+			<section id="center" class="centre_o  pt-5 pb-5">
+				<div class="container-xl">
+					<div class="row centre_o1 text-center">
+						<div class="col-md-12">
+							<h1 class="text-white font_60">Movies</h1>
+							<h5 class="mb-0 mt-3 fw-normal col_oran">
+								<a class="text-light" asp-controller="Home" asp-action="Index">Home</a>
+								<span class="mx-2 text-muted">/</span> Movies
+							</h5>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+		<div class="border_dashed">
+		</div>
+
+		<section id="trend" class="p_3">
+			<div class="container-xl">
+				@RenderBody()
+				</div>
+		</section>
+	<!-- Search Modal -->
+	<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none; top:0;" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content bg-transparent border-0">
+				<div class="modal-header border-0">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+				</div>
+				<div class="modal-body p-0">
+					<div class="search_1">
+						<form asp-controller="Movies" asp-action="Search" method="get">
+							<div class="input-group">
+								<input type="text" name="query" class="form-control bg-white border-0" placeholder="Search...">
+								<span class="input-group-btn">
+									<button class="btn btn-primary bg_oran border_1 rounded-0 p-3 px-4" type="submit">
+										<i class="fa fa-search"></i>
+									</button>
+								</span>
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="border_dashed">
+	</div>
+	<!--footer-->
+	<section id="footer" class="p_3 bg-black">
+		<div class="container-xl">
+			<div class="footer_1 row pb-4">
+				<div class="col-md-3">
+					<div class="footer_1l">
+						<h4 class="mb-0"><a class="fw-bold text-white" href="index.html"><i class="fa fa-modx col_oran"></i> Movie Theme </a></h4>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="footer_1r text-end">
+						<ul class="mb-0">
+							<li class="d-inline-block"><a class="social_icon" href="https://x.com/home"> <i class="fa fa-twitter"></i></a></li>
+							<li class="d-inline-block"><a class="social_icon" href="https://facebook.com"> <i class="fa fa-facebook"></i></a></li>
+							<li class="d-inline-block"><a class="social_icon" href="https://www.instagram.com/"> <i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer_2 row mt-4">
+				
+				<div class="col-md-3">
+					<div class="footer_2i">
+						<!--tagfooter-->
+						<h5 class="col_oran mb-4">Movies</h5>
+						<div class="row footer_1ism">
+							@await Component.InvokeAsync("NavBar")
+						</div>
+
+						<!--tagfooter-->
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="footer_2i">
+						<h5 class="col_oran mb-4">Links</h5>
+						<div class="row footer_1ism">
+							<h6 class="fw-normal col-md-12 col-6"><a class="text-white-50 a_tag" asp-controller="Pages" asp-action="About"> About Us</a></h6>
+							<h6 class="fw-normal mt-2 col-md-12 col-6"><a class="text-white-50 a_tag" href="/Users/Profile"> My account</a></h6>
+							<h6 class="fw-normal mt-2 col-md-12 col-6 mb-0"><a class="text-white-50 a_tag" asp-controller="Pages" asp-action="Contactus"> Contact Us</a></h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="/js/common.js"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+	</body>
+</html>

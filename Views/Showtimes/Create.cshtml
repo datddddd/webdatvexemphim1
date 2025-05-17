@@ -1,0 +1,62 @@
+﻿@model ck.Models.Showtime
+
+@{
+    ViewData["Title"] = "Create Showtime";
+	Layout = "AdminLayout"; 
+}
+
+<div class="container">
+    <h1>@ViewData["Title"]</h1>
+
+    <h4>Enter the details for the new showtime:</h4>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="MovieId" class="form-label">Movie</label>
+                    <select asp-for="MovieId" class="form-select" asp-items="ViewBag.MovieId">
+                        <option value="">-- Select Movie --</option>
+                    </select>
+                    <span asp-validation-for="MovieId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Date" class="form-label">Date</label>
+                    <input asp-for="Date" type="date" class="form-control" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                    <small class="form-text text-muted">Please select the date of the showtime.</small>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ShowTimes" class="form-label">Show Times (comma-separated)</label>
+                    <input asp-for="ShowTimes" class="form-control" placeholder="e.g., 10:00, 14:30, 19:15" />
+                    <span asp-validation-for="ShowTimes" class="text-danger"></span>
+                    <small class="form-text text-muted">Enter show times separated by commas (e.g., HH:mm).</small>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label">Price</label>
+                    <div class="input-group">
+                        <span class="input-group-text">₫</span>
+                        <input asp-for="Price" type="number" class="form-control" step="0.01" />
+                    </div>
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                    <small class="form-text text-muted">Enter the price for this showtime.</small>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Capacity" class="form-label"></label>
+                    <input asp-for="Capacity" class="form-control" />
+                    <span asp-validation-for="Capacity" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Create</button>
+                    <a asp-action="Adminview" class="btn btn-secondary">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

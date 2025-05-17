@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ck.Models.User>
+
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+    Layout = "AdminLayout";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="mb-0">Danh sách người dùng</h2>
+        <a class="btn btn-primary" asp-action="Create">
+            <i class="bi bi-plus-circle"></i> Thêm người dùng
+        </a>
+    </div>
+
+    <table class="table table-bordered table-hover shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Name)</th>
+                <th>@Html.DisplayNameFor(model => model.Username)</th>
+                <th>@Html.DisplayNameFor(model => model.Password)</th>
+                <th>@Html.DisplayNameFor(model => model.Email)</th>
+                <th>@Html.DisplayNameFor(model => model.Role)</th>
+                <th class="text-center">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Username)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Password)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Role)</td>
+                    <td class="text-center">
+                        <a class="btn btn-sm btn-warning me-1" asp-controller="Users" asp-action="Edit" asp-route-id="@item.Id">Sửa</a>
+                        <a class="btn btn-sm btn-info text-white me-1" asp-controller="Users" asp-action="Details" asp-route-id="@item.Id">Chi tiết</a>
+                        <a class="btn btn-sm btn-danger" asp-controller="Users" asp-action="Delete" asp-route-id="@item.Id">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

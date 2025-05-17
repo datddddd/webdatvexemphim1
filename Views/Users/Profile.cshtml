@@ -1,0 +1,55 @@
+﻿@model ck.Models.User
+@{
+    ViewData["Title"] = "Thông tin cá nhân";
+    Layout = "MoviesLayout";
+}
+
+<h2>Personal information</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        Please fix the errors below.
+    </div>
+}
+
+<form asp-action="Profile" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Username"></label>
+        <input asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">  New password (leave blank if not changed)</label>
+        <input asp-for="Password" class="form-control" type="password" />
+        <span asp-validation-for="Password" class="text-danger" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

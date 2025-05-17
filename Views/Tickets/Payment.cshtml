@@ -1,0 +1,94 @@
+﻿@model List<ck.Models.Ticket>
+@{
+    Layout = "PageLayout";
+    var firstTicket = Model.FirstOrDefault();
+}
+
+<section class="payment-body">
+    <div class="payment-container">
+        <div class="left-column">
+            <div class="card">
+                <h4>🎬 Thông tin phim</h4>
+                <p><strong>Phim:</strong><br>@firstTicket?.Showtime.Movie.MovieName</p>
+                <div class="info-grid">
+                    <div>
+                        <strong>Ngày giờ chiếu</strong><br>
+                        <span class="highlight">
+							@firstTicket?.Showtime?.Date   -   @firstTicket?.Showtime?.ShowTimes?.FirstOrDefault().ToString(@"hh\:mm")
+                        </span>
+                    </div>
+                    <div>
+                        <strong>Ghế</strong><br>
+                        @string.Join(", ", Model.Select(m => m.Seat?.SeatNumber))
+                    </div>
+                    <div>
+                        <strong>Tên khách hàng</strong><br>
+                        @firstTicket?.User?.Username
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h4>💳 Thông tin thanh toán</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Danh mục</th>
+                            <th>Số lượng</th>
+                            <th>Tổng tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ghế (@string.Join(", ", Model.Select(m => m.Seat?.SeatNumber)))</td>
+                            <td>@Model.Count</td>
+                            <td>
+                                @{
+                                    var total = Model.Sum(m => m.Price);
+                                }
+                                @total.ToString("N0")đ
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="right-column card">
+            <h4>Phương thức thanh toán</h4>
+            <div class="payment-options">
+                <label><input type="radio" name="method" checked> VietQR</label>
+                
+            </div>
+
+            <div class="costs">
+                <p>Thanh toán: <span>@total.ToString("N0")đ</span></p>
+                <p>Phí: <span>0đ</span></p>
+                <p><strong>Tổng cộng:</strong> <span class="highlight">@total.ToString("N0")đ</span></p>
+            </div>
+
+            @* 👇 ĐÂY LÀ ĐOẠN THÊM VÀO *@
+            @{
+                var username = Model.FirstOrDefault()?.User?.Username;
+                var ticketIds = string.Join(",", Model.Select(t => t.Id));
+            }
+
+            <h4 class="mt-4">🔍 Quét mã QR ngân hàng</h4>
+            <p>Chuyển khoản <strong>@total.ToString("N0")đ</strong> đến tài khoản dưới đây:</p>
+
+            <img src="https://img.vietqr.io/image/TECHCOMBANK-19039068456015-compact2.png?amount=@total&addInfo=ThanhToan_@username&accountName=CONG%20TY%20XYZ"
+                 alt="QR ngân hàng" style="max-width: 300px;" />
+
+            <p><small>Số tài khoản: <strong>19039068456015</strong> (TechcomBank)<br />Tên người nhận: <strong>CÔNG TY XYZ</strong><br />Nội dung: <strong>ThanhToan_@username</strong></small></p>
+
+            <form asp-action="ConfirmPayment" method="post" class="mt-3">
+                @foreach (var ticket in Model)
+                {
+                    <input type="hidden" name="ticketIds" value="@ticket.Id" />
+                }
+                <button type="submit" class="btn btn-success">Xác nhận đã chuyển khoản</button>
+            </form>
+        </div>
+
+    </div>
+</section>

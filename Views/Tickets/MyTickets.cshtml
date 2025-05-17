@@ -1,0 +1,50 @@
+﻿@{
+	Layout = "PageLayout"; 
+}
+@using (Html.BeginForm("ConfirmPaymentMultiple", "Tickets", FormMethod.Post))
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Ghế</th>
+                <th>Phim</th>
+                <th>Suất chiếu</th>
+                <th>Ngày đặt</th>
+                <th>Đã thanh toán</th>
+                <th>Giá</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in Model)
+            {
+                <tr>
+                    <td>
+                        @if (!ticket.IsPaid)
+                        {
+                            <input type="checkbox" name="selectedIds" value="@ticket.Id" />
+                        }
+                    </td>
+                    <td>@ticket.Seat.SeatNumber</td>
+                    <td>@ticket.Showtime.Movie?.MovieName</td>
+                    <td>@ticket.Showtime.Date</td>
+                    <td>@ticket.BookingDate.ToString("dd/MM/yyyy")</td>
+                    <td>@(ticket.IsPaid ? "✔️" : "❌")</td>
+                    <td>@ticket.Price.ToString("N0") đ</td>
+                    <td>
+                        @if (!ticket.IsPaid)
+                        {
+                            <a href="@Url.Action("Payment", "Tickets", new { ticketIds = ticket.Id })" class="btn btn-primary btn-sm">
+                                Thanh toán
+                            </a>
+                            @Html.AntiForgeryToken()
+                            <a href="@Url.Action("Delete", "Tickets", new { id = ticket.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xoá vé này không?');">
+                                Xóa
+                            </a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>}
